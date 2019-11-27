@@ -38,26 +38,28 @@
 								"direction" : "SYNC"
 							},
 						"children" : [{
-							"nodeName" : "Measurement C01",
+							"nodeName" : "Sub-indicator CP1I05_01",
 							"name" : "Specific keywords",
 							"type" : "type2",
 							"definition" : "Diversified diets",
 							"code" : "N1.1.1.1",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.1",
 									"nodeName" : "NODE NAME 1.1.1.1",
 									"direction" : "SYNC"
 								},
-						"children" : []
+							"children" : []
 						},{
-							"nodeName" : "Measurement C02",
+							"nodeName" : "Sub-indicator CP1I05_02",
 							"name" : "Specific keywords",
 							"type" : "type2",
 							"definition" : "Diversified markets",
 							"code" : "N1.1.1.2",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.2",
@@ -66,12 +68,13 @@
 								},
 							"children" : []
 						},{
-							"nodeName" : "Measurement C03",
+							"nodeName" : "Sub-indicator CP1I05_03",
 							"name" : "Specific keywords",
 							"type" : "type2",
 							"definition" : "Functional diversity",
 							"code" : "N1.1.1.3",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.3",
@@ -80,12 +83,13 @@
 								},
 							"children" : []
 						},{
-							"nodeName" : "Measurement C04",
+							"nodeName" : "Sub-indicator CP1I05_04",
 							"name" : "General keywords",
 							"type" : "type2",
 							"definition" : "Healthy and sustainable diets",
 							"code" : "N1.1.1.4",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.4",
@@ -94,12 +98,13 @@
 								},
 							"children" : []
 						},{
-							"nodeName" : "Measurement C05",
+							"nodeName" : "Sub-indicator CP1I05_05",
 							"name" : "Specific keywords",
 							"type" : "type2",
 							"definition" : "Species diversity",
 							"code" : "N1.1.1.5",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.5",
@@ -108,12 +113,13 @@
 								},
 							"children" : []
 						},{
-							"nodeName" : "Measurement C06",
+							"nodeName" : "Sub-indicator CP1I05_06",
 							"name" : "Specific keywords",
 							"type" : "type2",
 							"definition" : "Varietal diversity",
 							"code" : "N1.1.1.6",
-							"label" : "NA",
+							"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+							"source" : "Countries: FAOLEX and GINA; Companies: company websites",,
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.6",
@@ -152,12 +158,13 @@
 								"direction" : "ASYN"
 							},
 						"children" : [{
-								"nodeName" : "Measurement C07",
+								"nodeName" : "Sub-indicator CP2I06_01",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Crop diversity",
 								"code" : "N1.2.1.1",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.1",
@@ -166,12 +173,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C08",
+								"nodeName" : "Sub-indicator CP2I06_02",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Functional diversity",
 								"code" : "N1.2.1.2",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.2",
@@ -180,12 +188,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C09",
+								"nodeName" : "Sub-indicator CP2I06_03",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Livestock diversity",
 								"code" : "N1.2.1.3",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.3",
@@ -194,12 +203,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C10",
+								"nodeName" : "Sub-indicator CP2I06_04",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Mixed farming systems",
 								"code" : "N1.2.1.4",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.4",
@@ -208,12 +218,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C11",
+								"nodeName" : "Sub-indicator CP2I06_05",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Species diversity",
 								"code" : "N1.2.1.5",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.5",
@@ -222,12 +233,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C12",
+								"nodeName" : "Sub-indicator CP2I06_06",
 								"name" : "General keywords",
 								"type" : "type5",
 								"definition" : "Sustainable agricultural production",
 								"code" : "N1.2.1.6",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.6",
@@ -236,12 +248,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C13",
+								"nodeName" : "Sub-indicator CP2I06_07",
 								"name" : "Specific keywords",
 								"type" : "type5",
 								"definition" : "Varietal diversity",
 								"code" : "N1.2.1.7",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.7",
@@ -280,12 +293,13 @@
 								"direction" : "ASYN"
 							},
 						"children" : [{
-								"nodeName" : "Measurement C14",
+								"nodeName" : "Sub-indicator CP3I07_01",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Ex-situ conservation",
 								"code" : "N1.3.1.1",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.1",
@@ -294,12 +308,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C15",
+								"nodeName" : "Sub-indicator CP3I07_02",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Functional diversity",
 								"code" : "N1.3.1.2",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.2",
@@ -308,12 +323,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C16",
+								"nodeName" : "Sub-indicator CP3I07_03",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Genetic diversity",
 								"code" : "N1.3.1.3",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.3",
@@ -322,12 +338,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C17",
+								"nodeName" : "Sub-indicator CP3I07_04",
 								"name" : "General keywords",
 								"type" : "type8",
 								"definition" : "Genetic resource conservation for future use options",
 								"code" : "N1.3.1.4",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.4",
@@ -336,12 +353,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C18",
+								"nodeName" : "Sub-indicator CP3I07_05",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "In-situ conservation",
 								"code" : "N1.3.1.5",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.5",
@@ -350,12 +368,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C19",
+								"nodeName" : "Sub-indicator CP3I07_06",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Seed diversity",
 								"code" : "N1.3.1.6",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.6",
@@ -364,12 +383,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C20",
+								"nodeName" : "Sub-indicator CP3I07_07",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Species diversity",
 								"code" : "N1.3.1.7",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.7",
@@ -378,12 +398,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement C21",
+								"nodeName" : "Sub-indicator CP3I07_08",
 								"name" : "Specific keywords",
 								"type" : "type8",
 								"definition" : "Varietal diversity",
 								"code" : "N1.3.1.8",
-								"label" : "NA",
+								"label" : "Scale of: 0='No commitment', 1='Mention', 2='Strategy' in place, 3='Target' set",
+								"source" : "Countries: FAOLEX and GINA; Companies: company websites",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.8",
