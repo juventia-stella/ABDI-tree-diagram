@@ -38,12 +38,13 @@
 								"direction" : "SYNC"
 							},
 						"children" : [{
-							"nodeName" : "Measurement A05",
-							"name" : "Dietary guidelines for the country",
+							"nodeName" : "Sub-indicator AP1I01_01",
+							"name" : "Presence-absence of dietary guidelines",
 							"type" : "type2",
 							"definition" : "Policies or guidelines leading to diverse diets",
 							"code" : "N1.1.1.1",
-							"label" : "presence (1) or absence (0)",
+							"label" : "Presence (1) or absence (0)",
+							"source" : "High Level Panel of Experts on Food Security and Nutrition (2017) Nutrition and food systems",
 							"version" : "v1.0",
 							"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.1",
@@ -52,12 +53,13 @@
 								},
 						"children" : []
 					},{
-						"nodeName" : "Measurement A06",
-						"name" : "National food composition table",
+						"nodeName" : "Sub-indicator AP1I01_02",
+						"name" : "Presense-absence of a national food composition table",
 						"type" : "type2",
 						"definition" : "Resources to facilitate uptake of diverse diets",
 						"code" : "N1.1.1.2",
-						"label" : "presence (1) or absence (0)",
+						"label" : "Presence (1) or absence (0)",
+						"source" : "High Level Panel of Experts on Food Security and Nutrition (2017) Nutrition and food systems",
 						"version" : "v1.0",
 						"link" : {
 									"name" : "Link node 1.1.1 to 1.1.1.2",
@@ -96,12 +98,13 @@
 								"direction" : "ASYN"
 							},
 						"children" : [{
-								"nodeName" : "Measurement A01",
-								"name" : "Nitrogen use efficiency",
+								"nodeName" : "Sub-indicator AP2I02_01",
+								"name" : "This indicator uses data from Zhang et al. (2015) on nitrogen use efficiency (NUE) per year at a national level. NUE is a measure of the amount of Nitrogen inputs that are not lost to the environment or remain in the soil, where Nitrogen inputs include fertiliser applications, manure applications, biological fixation and atmospheric deposition. Higher values represent increased NUE.",
 								"type" : "type5",
 								"definition" : "Avoided over-use of artificial fertilizers or external inputs",
 								"code" : "N1.2.1.1",
 								"label" : "kg N output per kg N input",
+								"source" : "Zhang, X. et al. (2015) Managing nitrogen for sustainable development. Nature. 528: 51-59",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.1",
@@ -110,12 +113,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A02",
-								"name" : "Sustainable Nitrogen Management Index",
+								"nodeName" : "Sub-indicator AP2I02_02",
+								"name" : "The 2018 Environmental Performance Index (EPI, https://epi.envirocenter.yale.edu/) ranks 180 countries on 24 performance indicators across ten issue categories covering environmental health and ecosystem vitality.  The Sustainable Nitrogen Management Index (SNMI) is one of these indicators. It is available for 2010 and covers 136 countries. SNMI represents the euclidean distance from 0, where 0 is the optimal sustainable nitrogen management. We take the inverse of the SNMI so that higher values represent improved nitrogen management.",
 								"type" : "type5",
 								"definition" : "Integrated Plant Nutrient Management (IPNM)",
 								"code" : "N1.2.1.1",
 								"label" : "100/SNMI",
+								"source" : "Environmental Performance Index (2014); Accessed at: https://epi.envirocenter.yale.edu/",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.2",
@@ -124,8 +128,8 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A03",
-								"name" : "Sustainable Nitrogen Management Index",
+								"nodeName" : "Sub-indicator A03",
+								"name" : "Sustainable Nitrogen Management Index (under further consideration)",
 								"type" : "type5",
 								"definition" : "Low external input agriculture",
 								"code" : "N1.2.1.3",
@@ -138,12 +142,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A04",
-								"name" : "Agricultural land under agroforestry",
+								"nodeName" : "Sub-indicator AP2I02_04",
+								"name" : "Mean percentage tree cover on agricultural land, calculated from the Global Tree Cover and Biomass Carbon on Agricultural Land Database (Zomer et al. 2016). Available at: http://glcf.umd.edu/data/vcf/",
 								"type" : "type5",
 								"definition" : "Agroforestry (mixed herbaceous and tree crops)",
 								"code" : "N1.2.1.4",
 								"label" : "%",
+								"source" : "Zomer et al. (2016); Dataset available at: http://glcf.umd.edu/data/vcf/",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.4",
@@ -152,12 +157,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A08",
-								"name" : "Avoided pesticide application on agricultural land",
+								"nodeName" : "Sub-indicator AP2I02_05",
+								"name" : "Inverse of pesticide applications on arable land. We take the inverse of the pesticide applications so that higher values represent reduced pesticide use.",
 								"type" : "type5",
-								"definition" : "Avoided over-use of chemical control mechanisms (pesticide application)",
+								"definition" : "Avoided over-use of chemical control mechanisms (pesticide applications)",
 								"code" : "N1.2.1.5",
-								"label" : "100/pesticide applied in kg/ha",
+								"label" : "100/(kg pesticides per ha)",
+								"source" : "FAOSTAT (2015); Accessed at: http://www.fao.org/faostat",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.5",
@@ -166,12 +172,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A10",
-								"name" : "Agricultural land under organic agriculture",
+								"nodeName" : "Sub-indicator AP2I02_06",
+								"name" : "Percentage of agricultural land that is organic, including land under conversion to organic",
 								"type" : "type5",
 								"definition" : "Organic agriculture",
 								"code" : "N1.2.1.6",
 								"label" : "%",
+								"source" : "FAOSTAT (2015); Accessed at: http://www.fao.org/faostat",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.6",
@@ -180,12 +187,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A11",
-								"name" : "Subsidies for sustainable agricultural practices",
+								"nodeName" : "Sub-indicator AP2I02_07",
+								"name" : "Presence-absence of at least one subsidy or payment supporting sustainable agricultural practices",
 								"type" : "type5",
 								"definition" : "Subsidies or payments to incentivise sustainable agricultural practices",
 								"code" : "N1.2.1.7",
-								"label" : "presence (1) or absence (0)",
+								"label" : "Presence (1) or absence (0)",
+								"source" : "OECD (2018); Accessed at: https://pinedatabase.oecd.org",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.7",
@@ -194,12 +202,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A12",
-								"name" : "Agricultural land under conservation agriculture",
+								"nodeName" : "Sub-indicator AP2I02_08",
+								"name" : "Percentage of arable land under conservation agriculture",
 								"type" : "type5",
 								"definition" : "Conservation agriculture",
 								"code" : "N1.2.1.8",
 								"label" : "%",
+								"source" : "FAOSTAT (2016); Accessed at http://www.fao.org/nr/water/aquastat/data",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.8",
@@ -208,12 +217,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A18",
-								"name" : "Number of Integrated Landscape Initiatives with pro-ABD investments or effects",
+								"nodeName" : "Sub-indicator AP2I03_02",
+								"name" : "Number of integrated landscape initiatives with pro-ABD investments. This indicator counts only those ILI's recorded in the Africa, Latin America or Asia global ILI reviews and that incorporate at least one of the following activities: promotion or introduction of new crops or crop varieties; Promotion of native food species and agrobiodiversity; Crop intensification with agroecological methods (e.g., organic production, conservation agriculture, no-till, integrated pest management, improved fallows, etc.); Livestock intensification with agroecological methods (e.g. improved grass and browse supply, management of water availability, etc.); Adoption or expansion of agroforestry; Implementation of laws or incentives to reduce the environmental impacts of agriculture; Implementation of soil conservation practices",
 								"type" : "type5",
 								"definition" : "Maintenance or conservation of landscape complexity",
 								"code" : "N1.2.1.9",
-								"label" : "ILI(s)",
+								"label" : "Count",
+								"source" : "Global ILI reviews. Data obtained from Natalia Estrada-Carmona and Abby Hart (pers. comm.)",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.1 to 1.2.1.9",
@@ -237,12 +247,13 @@
 								"direction" : "ASYN"
 							},
 						"children" : [{
-								"nodeName" : "Measurement A07",
-								"name" : "Agricultural land diversifed with crop-livestock systems",
+								"nodeName" : "Sub-indicator AP2I03_01",
+								"name" : "Percentage of agricultural land containing both cropland and pasture. This dataset was made by overlaying Ramunkutty (2008) 1 x 1 km pasture and cropland extent datasets to identify pixels containing both cropland and pasture, and representing these 'diversified' areas as a percentage of total agricultural land.",
 								"type" : "type5",
 								"definition" : "Diversification through crop-livestock systems",
 								"code" : "N4.2",
 								"label" : "%",
+								"source" : "Ramankutty, N., A.T. Evan, C. Monfreda, and J.A. Foley (2008), Farming the planet: 1. Geographic distribution of global agricultural lands in the year 2000. Global Biogeochemical Cycles 22, GB1003, doi:10.1029/2007GB002952",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.2.2 to 1.2.2.1",
@@ -281,12 +292,13 @@
 								"direction" : "ASYN"
 							},
 						"children" : [{
-								"nodeName" : "Measurement A09",
-								"name" : "Agricultural land under organic agriculture",
+								"nodeName" : "Sub-indicator AP3I04_04",
+								"name" : "Percentage of agricultural land that is organic, including land under conversion to organic",
 								"type" : "type8",
-								"definition" : "Progress implementing the Convention on Biological Diversity (organic agriculture)",
+								"definition" : "Progress implementing the Convention on Biological Diversity: Agricultural land under organic agriculture",
 								"code" : "N1.3.1.1",
 								"label" : "%",
+								"source" : "FAOSTAT (2015); Accessed at: http://www.fao.org/faostat",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.1",
@@ -295,12 +307,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A13",
-								"name" : "Agricultural land under conservation agriculture",
+								"nodeName" : "Sub-indicator AP3I04_05",
+								"name" : "Percentage of arable land under conservation agriculture",
 								"type" : "type8",
-								"definition" : "Progress implementing the Convention on Biological Diversity (conservation agriculture)",
+								"definition" : "Progress implementing the Convention on Biological Diversity: Agricultural land under conservation agriculture",
 								"code" : "N1.3.1.1",
 								"label" : "%",
+								"source" : "FAOSTAT (2016); Accessed at http://www.fao.org/nr/water/aquastat/data",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.2",
@@ -309,12 +322,13 @@
 									},
 								"children" : []
 							},{
-								"nodeName" : "Measurement A55",
-								"name" : "Reported indicators in WIEWS linked to action",
+								"nodeName" : "Sub-indicator AP3I04_06",
+								"name" : "Proportion of indicators reported in FAO World Information and Early Warning System on Plant Genetic Resources for Food and Agriculture",
 								"type" : "type8",
-								"definition" : "Conservation and use of PGRFA (WIEWS)",
+								"definition" : "International reporting on plant genetic resources for food and agriculture",
 								"code" : "N1.3.1.3",
 								"label" : "%",
+								"source" : "World Information and Early Warning System on Plant Genetic Resources for Food and Agriculture; Accessed at: http://www.fao.org/wiews/en/",
 								"version" : "v1.0",
 								"link" : {
 										"name" : "Link node 1.3.1 to 1.3.1.3",
